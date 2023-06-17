@@ -1,0 +1,30 @@
+html{
+    font-size: 20px;
+}
+body{
+    font-family: "Arial", "Meiryo", sans-serif;
+    text-align: center;
+}
+
+.header{
+    border-bottom: 3px rgb(115, 115, 114);
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    border-bottom: 3px solid rgb(115, 115, 114);
+    font-size: 2rem;
+    letter-spacing: 1.2em;
+    text-shadow: 1px 3px gray;
+}
+
+#basic > .basic_child {
+    font-weight: bold;
+
+}
+.h1_Blue , .h2_Blue{
+    color:skyblue ;
+}
+.h1_Pink , .h2_Pink{
+    color:rgb(255,192,203)
+}
