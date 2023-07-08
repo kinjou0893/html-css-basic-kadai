@@ -506,7 +506,7 @@ footer {
   margin: 20px;
   background-color: #FFFFFF;
   min-height: 400px;
-  box-shadow: 2px 2px 2px 2px #707070;
+  box-shadow: 3px 3px 15px #ccc;
 }
 
 .case-img{
