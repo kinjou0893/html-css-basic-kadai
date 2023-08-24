@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang=jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic Cafe</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="めちゃくちゃ体に良いカフェです！">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <header>
+        <a href="index.html" id="logo"><img src="images/logo.png" alt="cafe"></a>
+        <!--PC用メニュー-->
+        <nav id="nav-pc">
+            <a href="#">CONCEPT</a>
+            <a href="#">PRODUCT</a>
+            <a href="#">CONTACT</a>
+        </nav>
+        <!--スマートフォン用メニュー-->
+        <img src="images/button-menu.png" alt="ナビゲーションを開く" id="menu-sp" onclick="document.getElementById('nav-sp').style.display='block'">
+        <nav id="nav-sp">
+            <img src="/images/button-close.png" alt="ナビゲーションを閉じる" id="close" onclick="document.getElementById('nav-sp').style.display='none'">
+            <a href='/index.html' id='logo-sp' onclick="document.getElementById('nav-sp').style.display='none'"><img src="/images/logo-sp.png" alt="トップページに戻る"></a>
+            <a href="index.html#product" class="menu" onclick="document.getElementById('nav-sp').style.display='none'">CONCEPT</a>
+            <a href="index.html#product" class="menu" onclick="document.getElementById('nav-sp').style.display='none'">PRODUCT</a>
+            <a href="index.html#product" class="menu" onclick="document.getElementById('nav-sp').style.display='none'">CONTACT</a>
+        </nav>
+        
+        
+    </header>
+    <section id="contents">
+        <h2>Organic cafe</h2>
+        <p>自家焙煎コーヒーが買えるお店</p>
+        <img src="images/main-image.jpg" alt="" id="cafepic" >
+    </section>
+
+</body>
+</html>
